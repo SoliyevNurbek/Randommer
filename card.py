@@ -18,7 +18,7 @@ class Card(Randommer):
         url = self.get_url() + endpoint
 
         headers = {
-            "X-Api-Key": "2d794c6f46094ceb96bd719c1c26c984"
+            "X-Api-Key": "0e4404c428d149a18f042a3f250fd746"
         }
 
         if type is not None:
@@ -48,7 +48,7 @@ class Card(Randommer):
         url = self.get_url() + endpoint
 
         headers = {
-            "X-Api-Key": "2d794c6f46094ceb96bd719c1c26c984"
+            "X-Api-Key": "0e4404c428d149a18f042a3f250fd746"
         }
 
         response = requests.get(url, headers=headers)
